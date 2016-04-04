@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<title>Perfection</title>
+	</head>
+
+	<body>
+		<div id="container">
+		<h1 id="pagetitle"><img src="media/title.png"></h1>
+		<div id="timer">1:00</div>
+		<div id ="buttons">
+			<button id="start-button">Start Timer</button>
+			<button id="instructions-button">How To Play
+			<span class="instructions">  
+				<ul>
+					<h4>Perfection is a game of speed and accuracy!</h4>
+					<li>Drag each yellow shape to a corresponding shape on the right... </li>
+					<li>Attempt to match all the shapes before time runs out! </li>
+					<li>Click "New Game" to reshuffle the boards and reset the timer</li>
+					<li>Click "Start Timer" when you're ready to begin!</li>
+					<h4>Good Luck!</h4>
+				</ul>
+			</span>
+			</button>
+			<button id="new-game-button">New Game</button>
+		</div>
+		<div id="best-time">Best time 00:00</div>
+		<div id="play-area">
+			<div id="centerdiv"><p id="game-state"></p></div>
+			<table class="piecetray">
+				<tr>
+					<td><img class="hex" src="media/hex1.png"></td>
+					<td><img class="hex" src="media/hex1.png"></td>
+					<td><img class="hex" src="media/hex1.png"></td>
+					<td><img class="hex" src="media/hex1.png"></td>
+					<td><img class="hex" src="media/hex1.png"></td>
+					<td><img class="hex" src="media/hex1.png"></td>
+				</tr>
+				<tr>
+					<td><img class="star" src="media/star1.png"></td>
+					<td><img class="star" src="media/star1.png"></td>
+					<td><img class="star" src="media/star1.png"></td>
+					<td><img class="star" src="media/star1.png"></td>
+					<td><img class="star" src="media/star1.png"></td>
+					<td><img class="star" src="media/star1.png"></td>
+				</tr>
+				<tr>
+					<td><img class="heart" src="media/hrt1.png"></td>
+					<td><img class="heart" src="media/hrt1.png"></td>
+					<td><img class="heart" src="media/hrt1.png"></td>
+					<td><img class="heart" src="media/hrt1.png"></td>
+					<td><img class="heart" src="media/hrt1.png"></td>
+					<td><img class="heart" src="media/hrt1.png"></td>
+				</tr>
+				<tr>
+					<td><img class="pentagon" src="media/pent1.png"></td>
+					<td><img class="pentagon" src="media/pent1.png"></td>
+					<td><img class="pentagon" src="media/pent1.png"></td>
+					<td><img class="pentagon" src="media/pent1.png"></td>
+					<td><img class="pentagon" src="media/pent1.png"></td>
+					<td><img class="pentagon" src="media/pent1.png"></td>
+				</tr>
+				<tr>
+					<td><img class="arrow" src="media/up1.png"></td>
+					<td><img class="arrow" src="media/up1.png"></td>
+					<td><img class="arrow" src="media/up1.png"></td>
+					<td><img class="arrow" src="media/up1.png"></td>
+					<td><img class="arrow" src="media/up1.png"></td>
+					<td><img class="arrow" src="media/up1.png"></td>
+				</tr>
+				<tr>
+					<td><img class="triangle" src="media/tri1.png"></td>
+					<td><img class="triangle" src="media/tri1.png"></td>
+					<td><img class="triangle" src="media/tri1.png"></td>
+					<td><img class="triangle" src="media/tri1.png"></td>
+					<td><img class="triangle" src="media/tri1.png"></td>
+					<td><img class="triangle" src="media/tri1.png"></td>
+				</tr>
+			</table>
+			<table class="gametray">
+				<tr>
+					<td><img class="hex" src="media2/hex1.png"></td>
+					<td><img class="hex" src="media2/hex1.png"></td>
+					<td><img class="hex" src="media2/hex1.png"></td>
+					<td><img class="hex" src="media2/hex1.png"></td>
+					<td><img class="hex" src="media2/hex1.png"></td>
+					<td><img class="hex" src="media2/hex1.png"></td>
+				</tr>
+				<tr>
+					<td><img class="star" src="media2/star1.png"></td>
+					<td><img class="star" src="media2/star1.png"></td>
+					<td><img class="star" src="media2/star1.png"></td>
+					<td><img class="star" src="media2/star1.png"></td>
+					<td><img class="star" src="media2/star1.png"></td>
+					<td><img class="star" src="media2/star1.png"></td>
+				</tr>
+				<tr>
+					<td><img class="heart" src="media2/hrt1.png"></td>
+					<td><img class="heart" src="media2/hrt1.png"></td>
+					<td><img class="heart" src="media2/hrt1.png"></td>
+					<td><img class="heart" src="media2/hrt1.png"></td>
+					<td><img class="heart" src="media2/hrt1.png"></td>
+					<td><img class="heart" src="media2/hrt1.png"></td>
+				</tr>
+				<tr>
+					<td><img class="triangle" src="media2/tri1.png"></td>
+					<td><img class="triangle" src="media2/tri1.png"></td>
+					<td><img class="triangle" src="media2/tri1.png"></td>
+					<td><img class="triangle" src="media2/tri1.png"></td>
+					<td><img class="triangle" src="media2/tri1.png"></td>
+					<td><img class="triangle" src="media2/tri1.png"></td>
+				</tr>
+				<tr>
+					<td><img class="arrow" src="media2/up1.png"></td>
+					<td><img class="arrow" src="media2/up1.png"></td>
+					<td><img class="arrow" src="media2/up1.png"></td>
+					<td><img class="arrow" src="media2/up1.png"></td>
+					<td><img class="arrow" src="media2/up1.png"></td>
+					<td><img class="arrow" src="media2/up1.png"></td>
+				</tr>
+				<tr>
+					<td><img class="pentagon" src="media2/pent1.png"></td>
+					<td><img class="pentagon" src="media2/pent1.png"></td>
+					<td><img class="pentagon" src="media2/pent1.png"></td>
+					<td><img class="pentagon" src="media2/pent1.png"></td>
+					<td><img class="pentagon" src="media2/pent1.png"></td>
+					<td><img class="pentagon" src="media2/pent1.png"></td>
+				</tr>
+			</table>
+		</div>
+		</div>
+		<script src="js/perfectiongui.js"></script>
+		<script src="js/perfectionapp.js"></script>
+	</body>
+</html>
