@@ -108,7 +108,7 @@ function setDraggable() {
 };
 
 function isFinished() {
-	if ((matchedCount === 36) && (Perfection.timeLeft !== 0)) {
+	if ((matchedCount === 36) && (Perfection.timeLeft > 0)) {
 		Perfection.view.rotateText(0, "PERFECTION!");
 		if(Perfection.timeLeft > bestTime) {
 			Perfection.view.updateScore("Best time " + Perfection.view.timer.innerHTML);
